@@ -1,0 +1,655 @@
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;	
+	border: 1px solid white;
+	box-shadow: -5px 0 3px #f2f2f2;
+
+}
+
+/*
+===================================================
+header
+===================================================
+*/
+.fixed-header {
+	width: 100%;
+	margin-left: 0;
+	position: fixed;
+	top: 0;
+	border-bottom: 1px solid #cccccc;
+	border-left: 1px solid white;
+	box-shadow: -5px 5px 3px #f2f2f2; 
+    background-color: white;
+    z-index: 11000;
+}
+
+nav {
+	position: relative;
+}
+
+button {
+	margin: 0 8px;
+	padding: 8px 12px;
+	text-transform: uppercase;
+	font-size: 11px;
+    font-weight: bold;
+	border-radius: 3px;
+}
+
+.sections-btn {
+	margin-left: 15px;
+	background-color: white;
+	border: 1px solid  #cccccc;
+	box-shadow:0 3px 3px #f2f2f2;
+}
+
+.white-btn {
+	background-color: white;
+	border: none;
+}
+
+.blue-btn {
+	background-color: #336699;
+	border:none;
+	color: white;
+
+}
+header i {
+	font-size: 14px !important;
+}
+.nav-top-left{
+	position: absolute;
+	left: -8px;
+
+}
+.nav-top-right {
+	position: absolute;
+	right: 30px;
+}
+
+.nyt-logo { 
+    margin: 15px auto;
+    width: 185px; 
+	height: 26px;
+}
+
+
+/*
+===================================================
+main-section: the article
+===================================================
+*/
+
+.main-section {
+	margin:70px 45px 30px 45px;
+	padding: 0;
+	border-top: 1px solid black;
+}
+
+.story-header h3 {
+	font-size: 12px;
+	font-family: sans-serif;
+}
+
+.story-header h1 {
+	font-size: 32px;
+	font-family: georgia;
+	font-style: italic;
+	border-bottom: 1px solid #f2f2f2;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+}
+
+.story-header-bottom {
+	position: relative;
+	margin: 0;
+	padding: 20px 0;
+}
+.by-line {
+	font-size: 12px;
+}
+
+.by-line a {
+	text-decoration: none;
+	color: black;
+}
+
+.by-line a:hover {
+	text-decoration: underline;
+}
+
+.datetime {
+	margin-left: 10px;
+}
+
+.tool-bar {
+	position: absolute;
+	right: 0;
+	top: 20px;
+
+}
+
+.tool-bar-btn {
+    height: 26px;
+    width: 26px;
+    padding: 0;
+
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+}
+
+.tool-bar a {
+
+	padding-left: 10px;
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+}
+
+.tool-bar a:nth-child(5) {
+	border-left: 1px solid #f2f2f2;
+}
+
+.story-img {
+	margin: 0;
+	padding: 0;
+}
+.story-img img {
+	max-width: 100%;
+
+}
+
+.img-caption {
+	max-width: 560px;
+	font-size: 15px;
+	margin-top: 0;
+	color: gray;
+}
+
+.img-caption p {
+	margin-top: 5px;
+}
+
+.credit {
+	font-size: 13px;
+	color: #bfbfbf;
+}
+
+.story-body {
+	
+	max-width: 540px;
+	margin-left: 45px;
+	margin-right: 0;
+	margin-top: 45px;
+	font-size: 17px;
+	line-height: 1.5;
+}
+
+.the-theory-of-inflation {
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	margin-top: 20px;
+	padding: 0;
+}
+
+.the-theory-of-inflation h2 {
+    font-family: georgia;
+    font-size: 20px;
+   margin-top: 15px;
+   margin-bottom: 0;
+}
+
+.the-theory-of-inflation > p {
+	margin-top: 5px;
+	font-family: georgia;
+	font-size: 14px;
+	color: gray;
+}
+
+.graphic {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 13px;
+}
+
+.graphic img {
+	width: 100%;
+	min-width: 75%;
+}
+
+.graphic-illustration {
+	margin: 0;
+	padding: 0;
+}
+.graphic-illustration li {
+	display: inline-block;
+	width: 23%;
+	padding-right: 2%;
+}
+.graphic-illustration li:nth-child(4){
+	padding-right: 0;
+}
+
+.graphic-illustration:first-child {
+	position: absolute;
+	top: 20%;
+	left: 0;
+}
+
+.graphic-illustration:nth-child(2) {
+	position: absolute;
+	top:70%;
+	left:0;
+}
+
+.graphic-byline {
+	position: absolute;
+	bottom:10px;
+	color: gray;
+}
+
+.science-times-sign-up {
+	float:left;
+	width: 320px;
+	font-family: sans-serif;	
+	margin-right: 20px;
+	padding: 15px 0 20px 0;
+	border-top: 1px solid #bfbfbf;
+	border-bottom: 1px solid #bfbfbf;
+}
+
+.science-times-sign-up h3 {
+   margin: 0;
+}
+.science-times-sign-up p {
+	font-size: 13px;
+	margin-top: 0;
+	color: gray;
+}
+
+.science-times-sign-up form {
+	font-size: 11px;
+}
+
+.field-container {
+	position: relative;
+	border: 1px solid #bfbfbf;
+	border-radius: 3px;
+	padding:5px;
+}
+
+.field-container input {
+	border: none;
+	padding: 5px;
+    
+}
+
+.submit-btn {
+	padding: 5px;
+	text-transform: none;
+	font-weight: bold;
+	border: 1px solid #bfbfbf;
+	position: absolute;
+	right: 0;
+}
+
+.submit-btn:hover {
+	background-color: #336699;
+	color: white;
+}
+
+.special-offers-checkbox {
+	margin: 15px 0 15px 0;
+	padding: 0;
+}
+
+.special-offers-checkbox input {
+	float: left;
+	margin-left: 0;   
+}
+.science-times-sign-up label {
+	display: block;
+	margin-left: 20px;
+}
+
+.not-a-robot-container {
+	width: 70%;
+	margin-bottom: 20px;
+	padding: 15px 5px 15px 5px;
+	background-color: #f2f2f2;
+	box-shadow: 2px 2px 2px #bfbfbf;
+}
+
+.science-times-sign-up ul {
+	
+	padding-top: 5px;
+	padding-left: 0;
+	border-top: 1px solid #bfbfbf;
+}
+
+.science-times-sign-up ul li {
+	display: inline-block;
+	font-size: 9px;
+	padding-right:5px;
+	border-right: 1px solid #bfbfbf; 
+
+}
+
+.science-times-sign-up li a {
+	text-decoration: none;
+	color: gray;
+}
+.science-times-sign-up li:nth-child(2){
+	border-right: none;
+}
+
+.science-times-sign-up li a:hover {
+	text-decoration: underline;
+}
+
+.story-body-img {
+	margin: 30px 0 30px 0;
+	padding: 0;
+}
+
+.story-body-img img {
+	width: 560px;
+	margin-bottom: 0;
+	border: 1px solid black;
+}
+
+.trending {
+	display: block;
+	float: right;
+	width: 300px;
+	border-top: 1px solid #bfbfbf;
+}
+
+.trending header h2 {
+	font-family: sans-serif;
+	font-size: 11px;
+	margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+
+.trending ol {
+	padding-left:0;
+	margin-left: 0;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	counter-reset: list-counter;
+	
+}
+
+.trending-list {
+    
+	padding-top: 10px;
+	border-bottom: 1px solid #f2f2f2;
+	font-size: 14px;
+}
+
+
+
+.trending-list a {
+	display: inline-block;
+	vertical-align: top;
+	width: 270px;
+	text-decoration: none;
+	color: #336699;
+}
+
+.trending-list a:hover {
+	text-decoration: underline;
+}
+
+
+
+.trending-list::before {
+	counter-increment: list-counter;
+	content: counter(list-counter)".";
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 5px;
+	width: 25px;
+}
+
+
+
+.trending-list img {
+	float: right;
+	width: 40px;
+	height: 40px;
+
+}
+
+.trending-list p {
+    margin-top: 0;
+   
+}
+
+
+
+
+
+
+
+.whats-next {
+	width: 630px; 	
+}
+
+.more-info {
+	border-top: 1px solid #bfbfbf;
+	margin-bottom: 30px;
+}
+
+.more-info-header {
+	position: relative;
+	font-family: sans-serif;
+}
+
+.more-info-header h4 {
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+.more-info-header a {
+	text-decoration: none;
+	color: black;
+}
+
+.more-info-header a:hover {
+	text-decoration: underline;
+}
+
+.go-to {
+	position: absolute;
+	right: 0;
+	top:5px;
+	padding: 0;
+	margin: 0;
+	font-size: 10px;
+}
+
+
+.more-info ul {
+	margin: 0;
+	padding: 0;
+
+}
+.thumb {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0;
+	width: 190px;
+	margin: 0 20px 20px 0;
+
+}
+
+.thumb:nth-child(3),
+.thumb:nth-child(6) {
+	margin-right: 0;
+}
+
+.thumb img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 195px;
+}
+
+.thumb a {
+	text-decoration: none;
+	color: black;
+}
+.thumb a:hover{
+	text-decoration: underline;
+}
+
+.thumb h5,
+.thumb p {
+	padding:0;
+	margin: 0;
+	font-weight: bold;
+}
+
+
+/*
+===================================================
+footer
+===================================================
+*/
+.footer-section {
+	clear: both;
+	margin:40px 45px 0;
+	border-top: 2px double #bfbfbf;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.footer-section ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-section header {
+	position: relative;
+}
+.footer-logo {
+	margin-top: 10px;
+	margin-left: 0;
+	margin-bottom: 30px;
+}
+
+footer .go-to p {
+	margin-top: 5px;
+}
+
+.footer-index-section {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-index-column {
+	float: left;
+	width: 142px;
+	font-family: sans-serif;
+	font-size: 14px;
+
+}
+
+.footer-index-column:last-child {
+	border-right: 1px solid #bfbfbf;
+}
+
+.footer-index-column li {
+	
+	margin-bottom: 8px;
+}
+
+ 
+.footer-index-heading {
+	margin-top: 0;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.footer-aside-index {
+	float: left;
+	font-family: sans-serif;
+	margin-left: 10px;
+	
+}
+
+.subscribe-heading {
+	margin-bottom: 10px;
+}
+
+.subscribe-list {
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.small-list {
+	font-size: 10px;
+	padding-bottom: 7px;
+}
+
+.footer-aside-index ul:first-child {
+	border-bottom: 1px solid #bfbfbf;
+	margin-bottom: 10px;
+}
+
+.clearfix::before {
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.page-footer {
+	clear: both;
+	width: 100%;	
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	border-top: 1px solid #bfbfbf;
+	font-size: 10px;
+	font-family: sans-serif;
+	
+
+}
+.last-nav {
+	float: right;
+}
+.page-footer li {
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-right: 1px solid #bfbfbf;
+	color: #bfbfbf;
+}
+
+.page-footer li:last-child {
+	border-right: none;
